@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic - configFile 1`] = `
+"/src/fixture/frontmatter-1.md:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/frontmatter-2.mdx:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/frontmatter-3.mdx:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/no-frontmatter.md:
+  because:
+    - publishingEdited
+  changes:
+"
+`;
+
+exports[`basic - namespace 1`] = `
+"/src/fixture/frontmatter-1.md:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/frontmatter-2.mdx:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/frontmatter-3.mdx:
+  because:
+    - publishingEdited
+  changes:
+/src/fixture/no-frontmatter.md:
+  because:
+    - publishingEdited
+  changes:
+"
+`;
+
+exports[`brainwave - telepathy 1`] = `
+"authors:
+  /src/fixture/frontmatter-2.mdx: different
+  /src/fixture/frontmatter-3.mdx: brekk
+learnPages:
+  /src/fixture/frontmatter-2.mdx: true
+  /src/fixture/frontmatter-3.mdx: true
+"
+`;
+
+exports[`reyaml 1`] = `
+"---
+a:
+  b:
+    c:
+      d:
+        cool: so cool
+---
+input!"
+`;
+
+exports[`runTransformationWithWriter 1`] = `
+"changed:
+  - /src/fixture/cool/a.mdx
+  - /src/fixture/cool/b.mdx
+  - /src/fixture/cool/c.mdx
+"
+`;

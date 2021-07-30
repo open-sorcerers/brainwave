@@ -1,0 +1,5 @@
+brainwave.js
+!src/brainwave.js
+brainwave-cli.js
+node_modules
+coverage
